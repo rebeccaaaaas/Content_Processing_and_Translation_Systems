@@ -1,0 +1,49 @@
+# Core dependencies
+streamlit==1.31.1          # Web framework for building the application interface
+openai==1.12.0            # OpenAI API integration for LLM functionality
+langchain==0.1.9          # Framework for building LLM applications
+langchain-openai==0.0.7   # OpenAI specific components for LangChain
+PyPDF2==3.0.1            # PDF file processing and text extraction
+youtube-transcript-api>=0.6.2  # YouTube transcript extraction
+pytube>=15.0.0           # YouTube video processing
+
+# Language Processing
+deepl==1.16.1            # DeepL translation API client
+googletrans==3.1.0a0     # Google Translate API client
+
+# Vector Store and Embeddings
+numpy>=1.26.4            # Numerical computing library
+scipy>=1.12.0            # Scientific computing library
+sentence-transformers>=2.5.1  # Text embedding models
+faiss-cpu==1.7.4         # Vector similarity search implementation
+
+# Async support
+aiohttp==3.9.3           # Asynchronous HTTP client/server
+async-timeout==4.0.3     # Timeout management for async operations
+asyncio==3.4.3           # Asynchronous I/O framework
+
+# Utilities
+python-dotenv==1.0.0     # Environment variable management
+typing-extensions==4.9.0  # Enhanced typing support
+attrs==23.2.0            # Classes without boilerplate
+certifi>=2024.2.2        # Mozilla's certificate bundle
+dataclasses-json>=0.6.4  # JSON serialization for dataclasses
+tenacity>=8.2.3          # Retry library for operations
+
+# Protocol support
+protobuf>=3.20.0         # Protocol buffers implementation
+
+# Time handling
+pytz==2024.1             # Timezone calculations
+
+# Optional - for development
+black==24.1.1            # Code formatting
+pylint==3.0.3            # Code analysis
+pytest==8.0.0            # Testing framework
+mypy==1.8.0              # Static type checker
+
+# Documentation
+pdoc3>=0.10.0            # API documentation generator
+
+# Performance monitoring
+memory-profiler>=0.61.0  # Memory usage analysis tool
