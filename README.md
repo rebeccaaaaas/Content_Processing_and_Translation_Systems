@@ -1,4 +1,4 @@
-# Content_Processing_and_Translation_Systems
+# Content Processing and Translation Systems
 
 A multi-modal approach to language and content analysis with three integrated Python-based applications:
 1. Multi-Platform Translation Service
@@ -17,10 +17,7 @@ Compare translations across multiple platforms (OpenAI, DeepL, Google Translate)
 - Rate limiting to prevent API throttling
 - Asynchronous processing for Google Translate
 
-<details>
-<summary>View Demo</summary>
-<video src="./Problem1_TranslationComparison.mov" controls></video>
-</details>
+**[▶️ View Demo Video: Translation Service](./Problem1_TranslationComparison.mov)**
 
 ### YouTube Video Content Summarization
 Extract and summarize content from YouTube videos:
@@ -28,10 +25,7 @@ Extract and summarize content from YouTube videos:
 - Uses LangChain for creating concise summaries
 - Map-reduce approach for handling videos of any length
 
-<details>
-<summary>View Demo</summary>
-<video src="./Problem2_VideoContentExtraction.mov" controls></video>
-</details>
+**[▶️ View Demo Video: Video Summarization](./Problem2_VideoContentExtraction.mov)**
 
 ### PDF Question-Answering System
 Interact with PDF documents through natural language questions:
@@ -39,10 +33,7 @@ Interact with PDF documents through natural language questions:
 - FAISS vector store for fast content retrieval
 - Conversational interface for document Q&A
 
-<details>
-<summary>View Demo</summary>
-<video src="./Problem3_PDFContentProcessing.mov" controls></video>
-</details>
+**[▶️ View Demo Video: PDF Q&A System](./Problem3_PDFContentProcessing.mov)**
 
 ## Installation
 
