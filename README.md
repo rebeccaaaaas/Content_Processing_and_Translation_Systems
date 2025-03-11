@@ -7,7 +7,7 @@ A multi-modal approach to language and content analysis with three integrated Py
 
 ## System Architecture
 
-![System Architecture](./system_architecture.png)
+![System Architecture](./source/system_architecture.png)
 
 ## Project Features
 
@@ -17,7 +17,9 @@ Compare translations across multiple platforms (OpenAI, DeepL, Google Translate)
 - Rate limiting to prevent API throttling
 - Asynchronous processing for Google Translate
 
-**[▶️ View Demo Video: Translation Service](./Problem1_TranslationComparison.mov)**
+![Translation Service Demo](./source/Problem1.gif)
+
+**[Full Demo Video](./video_demo/Problem1_TranslationComparison.mov)**
 
 ### YouTube Video Content Summarization
 Extract and summarize content from YouTube videos:
@@ -25,7 +27,9 @@ Extract and summarize content from YouTube videos:
 - Uses LangChain for creating concise summaries
 - Map-reduce approach for handling videos of any length
 
-**[▶️ View Demo Video: Video Summarization](./Problem2_VideoContentExtraction.mov)**
+![Video Summarization Demo](./source/Problem2.gif)
+
+**[Full Demo Video](./video_demo/Problem2_VideoContentExtraction.mov)**
 
 ### PDF Question-Answering System
 Interact with PDF documents through natural language questions:
@@ -33,7 +37,9 @@ Interact with PDF documents through natural language questions:
 - FAISS vector store for fast content retrieval
 - Conversational interface for document Q&A
 
-**[▶️ View Demo Video: PDF Q&A System](./Problem3_PDFContentProcessing.mov)**
+![PDF Q&A Demo](./source/Problem3.gif)
+
+**[Full Demo Video](./video_demo/Problem3_PDFContentProcessing.mov)**
 
 ## Installation
 
@@ -92,7 +98,6 @@ See `requirements.txt` for full dependencies.
 - Distributed processing for scalability
 - Custom embedding models for improved accuracy
 - Enhanced UI/UX with real-time progress tracking
-
 
 ## License
 
